@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.conteiner{
+    width: 1170px;
+    margin: 0 15px;
+}
+
+.conteiner_tabs{
+    display: inline-flex;
+}
+
+.conteiner_tabs>div{
+    display: flex;
+    padding: 10px 70px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.conteiner_tabs_selected-tab:hover{
+    position: relative;
+    padding: 9px 69px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: -1px;
+}
+
+.conteiner_information{
+    display: inline-flex;
+    border: 1px solid #C6CBCD;
+}
+
+.conteiner_information_text{
+    
+    width: 60%;
+}
+
+.conteiner_information_text h3{
+    padding: 38px 26px 38px 84px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.conteiner_information_text>h5{
+    padding: 38px 30px 27px 84px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+.conteiner_information_text div{
+    padding: 0px 0px 54px 84px;  
+}
+
+.conteiner_information_text button{
+    height: 58px;
+    width: 270px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.conteiner_information_image{
+    width: 470px;
+    background-image: url(/ДЗ3/img/Rectangle\ 111.png);
+    background-size:cover;
+}
